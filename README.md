@@ -3,8 +3,8 @@ A ARP cache poisoner made using Python
 <br>
 Features for now are:<br>
 <ul>
-  Shows the websites the victim is visiting from DNS packet displayed in the Terminal
-  Works in every platform
+  Shows the websites the victim is visiting from DNS packet displayed in the Terminal <br>
+  Works in every platform <br>
   Opens wireshark after the program is stopped(won't work for a lot of packets)
 </ul>
 <br>
