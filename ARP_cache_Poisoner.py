@@ -12,7 +12,6 @@ def get_mac(targetip):
         return r[Ether].src
     return None
 
-
 def Network_packet(packet):
     if packet.haslayer(DNS) and packet.getlayer(DNS).qr == 0:
         dns_query = packet.getlayer(DNSQR).qname.decode()
